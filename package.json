@@ -1,13 +1,33 @@
 {
   "name": "cwall",
   "version": "18.06.20",
-  "dependencies": {
-    "minimist": ">=1.2.0",
-    "ws": ">=5.2.0",
-    "bufferutil": ">=3.0.5",
-    "https-proxy-agent": ">=2.2.1"
+  "description": "Cross wall",
+  "engines": {
+    "node": "8.11.3"
   },
+  "main": "main.js",
+  "dependencies": {
+    "minimist": "^1.2.0",
+    "ws": "^5.2.0",
+    "bufferutil": "^3.0.5",
+    "https-proxy-agent": "^2.2.1"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nebulabox/cwall.git"
+  },
+  "keywords": [
+    "node",
+    "shadowsocks",
+    "gfw",
+    "firewall",
+    "socks5",
+    "http",
+    "proxy"
+  ],
   "scripts": {
     "start": "node server.js -b 0.0.0.0"
-  }
+  },
+  "license": "MIT"
 }
