@@ -1,0 +1,13 @@
+{
+  "name": "cwall",
+  "version": "18.06.20",
+  "dependencies": {
+    "minimist": ">=1.2.0",
+    "ws": ">=5.2.0",
+    "bufferutil": ">=3.0.5",
+    "https-proxy-agent": ">=2.2.1"
+  },
+  "scripts": {
+    "start": "node server.js -b 0.0.0.0"
+  }
+}
