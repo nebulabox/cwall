@@ -1,9 +1,9 @@
 {
-  "name": "cwall",
-  "version": "18.06.20",
-  "description": "Cross wall",
+  "name": "pwall",
+  "version": "18.06.22",
+  "description": "A lightweight tunnel proxy tool that help to get through firewalls",
   "engines": {
-    "node": "8.11.3"
+    "node": "10.5.0"
   },
   "main": "main.js",
   "dependencies": {
@@ -15,19 +15,16 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "https://github.com/nebulabox/cwall.git"
+    "url": "https://github.com/nebulabox/pwall.git"
   },
   "keywords": [
     "node",
-    "shadowsocks",
     "gfw",
     "firewall",
     "socks5",
     "http",
-    "proxy"
+    "proxy",
+    "tunnel"
   ],
-  "scripts": {
-    "start": "node server.js -b 0.0.0.0"
-  },
   "license": "MIT"
 }
