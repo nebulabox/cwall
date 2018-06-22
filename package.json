@@ -1,6 +1,6 @@
 {
   "name": "pwall",
-  "version": "18.06.22",
+  "version": "18.622.1",
   "description": "A lightweight tunnel proxy tool that help to get through firewalls",
   "engines": {
     "node": "10.5.0"
